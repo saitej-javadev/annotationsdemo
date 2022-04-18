@@ -1,0 +1,11 @@
+for vm options:
+--------------------
+
+
+I added -Dspring.profiles.active=test to VM Options and then re-ran that configuration. It worked perfectly.
+
+This can be set by
+
+Choosing Run | Edit Configurations...
+Go to the Configuration tab
+Expand the Environment section to reveal VM options
